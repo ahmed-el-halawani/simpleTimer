@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center"
+>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/viewM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m"
+                android:textSize="50sp"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginBottom="10dp"
+
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/space"
+                android:textSize="50sp"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginBottom="10dp"
+
+        />
+        <TextView
+                android:id="@+id/viewS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s"
+                android:textSize="50sp"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginBottom="10dp"
+
+        />
+
+    </LinearLayout>
+
+    <Button android:id="@+id/startTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min10"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/aclonica"
+            android:background="@android:color/holo_green_light"
+            android:padding="10dp"
+    />
+    <Button android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/reset"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/aclonica"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+    />
+
+
+</LinearLayout>
